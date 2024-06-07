@@ -32,6 +32,7 @@ namespace ServerAPI
 
             app.UseHttpsRedirection();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
 

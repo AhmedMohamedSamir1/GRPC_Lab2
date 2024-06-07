@@ -44,6 +44,7 @@ namespace ClientAPI
             app.UseHttpsRedirection();
 
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
 
